@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+  }
+  body{
+    
+      overflow-x: hidden; /* hide horizontal scrollbar */
+      overflow-y: scroll; /* show vertical scrollbar */
+  
+    
+    background: #faf7f2;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    
+    font-weight: 400;
+  }
+
+  *:before,
+*:after {
+  box-sizing: inherit;
+}
+.wdth{
+    width: 25px;
+    height: 25px;
+    background-color: #3b84b8;
+    margin-left: 10px;
+}
+.sign{
+    
+    color:  rgb(79, 79, 171);
+}
+
+  
+/*
+library management system
+*/
+.txt{
+   color: #385A64;
+    /* color: #4B62A8; */
+    text-transform: uppercase;
+   text-align: center;
+   
+    
+}
+
+.input-field {
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    transition: border-bottom-color 0.3s;
+    box-shadow: none;
+
+   
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-bottom-color: rgb(79, 79, 171);
+    box-shadow: none;
+  }
+  
+  .input-field:valid {
+    border-bottom-color: green;
+    box-shadow: none;
+  }
+  
+  input[type="password"]:focus {
+    outline: none;
+ 
+    border-bottom-color: rgb(79, 79, 171);
+    box-shadow: none;
+  }
+  input[type="text"]:focus {
+    outline: none;
+ 
+    border-bottom-color: rgb(79, 79, 171);
+    box-shadow: none;
+  }
+
+
+  .form-group {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+label{
+    font-size: 14px;
+    color: #39569f;
+}
+::placeholder{
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+a {
+    text-decoration: none;
+  }
+  
+.my-button {
+    width: 100;
+    height: 50px;
+ 
+  }
+/* .toogleicon{
+    position: relative;
+    top: -110px;
+    left: 86%;
+    z-index: 1000;
+    cursor: pointer; 
+    font-size: 15px;
+     
+    
+
+} */
+
+
+.Invalid{
+position: relative;
+top: -50px;
+left: 50%;
+z-index: 1000;
+font-size: 12px;
+font-weight: 550;
+color: rgb(203, 39, 39);
+
+}
+.succes_massage{
+ 
+  text-align: center;
+  margin-bottom: 20px;
+  color: #3f6681;
+  font-size: 15px;
+ 
+ 
+}
+
+.input-group {
+  position: relative;
+ overflow: hidden;
+ 
+}
+
+.input-group .input-group-text {
+  position: absolute;
+
+   right: 50px; 
+  top: 53%;
+  
+  background: none;
+  border: none;
+  
+  cursor: pointer;
+ 
+
+}
+

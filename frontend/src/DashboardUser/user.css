@@ -1,0 +1,29 @@
+.Dashbar{
+  padding-bottom: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .title{
+    margin-top: -15px;
+  }
+  .nav-bar {
+    position: absolute;
+    top: -18px; 
+    right: -255px;
+    width: 250px;
+    height: 100%;
+    background-color: #18213E;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+   z-index: 1;
+   overflow: hidden;
+   transform: translateX(-100%);
+   display: block;
+
+   padding: 50px;
+
+  }
+  .Dashbar{
+    padding-bottom: 20px;
+  }
+}

@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+  }
+  body{
+    
+      overflow-x: hidden; /* hide horizontal scrollbar */
+      overflow-y: scroll; /* show vertical scrollbar */
+  
+    
+ 
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    
+    font-weight: 400;
+  }
+
+  *:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.input-field {
+  
+background-color: #ECECEC;
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    transition: border-bottom-color 0.3s;
+    box-shadow: none;
+
+   
+  }
+  input[type="email"]:focus {
+    outline: none;
+ 
+    border-bottom-color: rgb(79, 79, 171);
+    box-shadow: none;
+  }
+  input[type="text"]:focus {
+    outline: none;
+ 
+    border-bottom-color: rgb(79, 79, 171);
+    box-shadow: none;
+  }
+  input[type="number"]:focus {
+    outline: none;
+ 
+    border-bottom-color: rgb(79, 79, 171);
+    box-shadow: none;
+  }
+  .input-field:focus {
+    background-color: #ECECEC;
+    outline: none;
+    border-bottom-color: rgb(79, 79, 171);
+    box-shadow: none;
+  }
+  
+  .input-field:valid {
+    border-bottom-color: green;
+    box-shadow: none;
+  }
+  ::placeholder{
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+ 
+.my-button {
+    width: 100;
+    height: 50px;
+   
+ 
+  }
+.form_card{
+   /* border: 2px solid #E2ECC7; */
+   background-color: #ECECEC; 
+}
+
+.table_card{
+    /* background-color: #E2ECC7; */
+}
+
+table {
+    /* border-collapse: collapse; */
+    /* width: 100%;
+    max-width: 800px;
+    margin: 0 auto; */
+    
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+   
+  }
+  
+  th {
+    background-color: #EEFDFA;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #EEFDFA;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  
+  
+ 
+  .edt_icon{
+    position: relative;
+    left: 15px;
+    color: #2F2E29;
+    cursor: pointer;
+  }
+  .tras_icon{
+    color: #2F2E29;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  .tras_icon:hover {
+    color: #9C2E24;
+    transform: scale(3);
+  }
+  .edt_icon:hover{
+    color: #9C2E24;
+    transform: scale(3);
+   
+  }
+  .input-field_edit {
+  
+    background-color: #ECECEC;
+        font-size: 15px;
+        border: none;
+        border-bottom: 2px solid #ccc;
+        transition: border-bottom-color 0.3s;
+        box-shadow: none;
+    
+       
+      }
+
+  
+  .edit_form{
+  
+    width:150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+    
+  }
+  .btn_cancel{
+    width: 80px;
+    height: 50px;
+  }
+
+.search_container{
+  border-radius: 5%;
+  border:2px solid #3BAEAB;
+}
+input[type="search"] {
+    background-color: #f8f9fa;
+
+    font-size: 14px;
+  }
+  
+input[type="search"]:focus {
+    border: 2px solid #3BAEAB;
+    
+  }
+  .search{
+    position: relative;
+    top:10%;
+    left: 200px;
+    color: #3BAEAB;
+  }

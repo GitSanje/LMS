@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+  }
+  body{
+    
+      overflow-x: hidden; /* hide horizontal scrollbar */
+      overflow-y: scroll; /* show vertical scrollbar */
+  
+    
+    background:#E5EBFD;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    
+    font-weight: 400;
+  }
+
+  *:before,
+*:after {
+  box-sizing: inherit;
+}
+.MDBDataTableV5-searchTop input[type="search"] {
+    background-color: #f8f9fa;
+    border-radius: 25px;
+    font-size: 14px;
+  }
+  
+  .MDBDataTableV5-searchTop input[type="search"]:focus {
+    border-color: #3BAEAB;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+
+  .search{
+    position: relative;
+    top:10%;
+    left: 150px;
+    color: #3BAEAB;
+  }

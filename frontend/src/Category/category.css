@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+  }
+  body{
+    
+      overflow-x: hidden; /* hide horizontal scrollbar */
+      overflow-y: scroll; /* show vertical scrollbar */
+  
+    
+    background:#E5EBFD;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    
+    font-weight: 400;
+  }
+
+  *:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.input-field {
+background-color: #ECECEC;
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    transition: border-bottom-color 0.3s;
+    box-shadow: none;
+
+   
+  }
+  input[type="text"]:focus {
+    outline: none;
+ 
+    border-bottom-color: rgb(79, 79, 171);
+    box-shadow: none;
+  }
+  input[type="number"]:focus {
+    outline: none;
+ 
+    border-bottom-color: rgb(79, 79, 171);
+    box-shadow: none;
+  }
+  .input-field:focus {
+    background-color: #ECECEC;
+    outline: none;
+    border-bottom-color: rgb(79, 79, 171);
+    box-shadow: none;
+  }
+  
+  .input-field:valid {
+    border-bottom-color: green;
+    box-shadow: none;
+  }
+  ::placeholder{
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+.form_card{
+    /* border: 2px solid #E2ECC7; */
+    background-color: #ECECEC; 
+ }
+ 
+ .edit_form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+    
+  }
+  .btn_cancel{
+    margin-top: 20px;
+    width: 80px;
+    height: 50px;
+  }
